@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Nexa Tech — Projetos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;800&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body{margin:0;font-family:Inter;background:#0b0f14;color:#e5e7eb}
+    .container{max-width:1100px;margin:auto;padding:24px}
+    header{border-bottom:1px solid #1f2937}
+    .logo{width:38px;height:38px;border-radius:10px;
+      background:linear-gradient(135deg,#22d3ee,#22c55e);
+      display:grid;place-items:center;font-family:Orbitron;
+      color:#020617;font-weight:800}
+    h1{font-family:Orbitron}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px}
+    .card{background:#111827;border:1px solid #1f2937;
+      border-radius:18px;overflow:hidden}
+    .thumb{height:160px;background:#020617;
+      display:grid;place-items:center;color:#9ca3af}
+    .card div{padding:14px}
+    a{text-decoration:none;color:inherit}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container" style="display:flex;gap:10px;align-items:center">
+    <div class="logo">N</div>
+    <strong>NEXA TECH — PROJETOS</strong>
+  </div>
+</header>
+
+<main class="container">
+  <h1>Projetos</h1>
+
+  <div class="grid">
+
+    <a class="card" href="projeto-detalhe.html">
+      <div class="thumb">Imagem do Projeto</div>
+      <div>
+        <h3>Braço Robótico</h3>
+        <p style="color:#9ca3af">Arduino + Servos</p>
+      </div>
+    </a>
+
+    <a class="card" href="projeto-detalhe.html">
+      <div class="thumb">Imagem do Projeto</div>
+      <div>
+        <h3>Automação</h3>
+        <p style="color:#9ca3af">Relés e sensores</p>
+      </div>
+    </a>
+
+    <a class="card" href="projeto-detalhe.html">
+      <div class="thumb">Imagem do Projeto</div>
+      <div>
+        <h3>Game Educacional</h3>
+        <p style="color:#9ca3af">Lógica de programação</p>
+      </div>
+    </a>
+
+  </div>
+</main>
+
+</body>
+</html>
